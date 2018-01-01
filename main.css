@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top {
+  background-color:#A2424E;
+}
+
+main {
+  background-color: #777C80;
+  padding-left: 1%;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 300px;
+  background-color: #CCCDCE;
+  border: 2px solid #C18D41;
+  height: 500px;
+  position: relative;
+  margin: 10px;
+}
+
+.harry {
+  height: 40%;
+  background-image: url(images/harry-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+.points {
+  position: absolute;
+  font-size: 1.1em;
+  right: 16px;
+}
+
+.number {
+  position: absolute;
+  right: 25px;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.bottom-of-card {
+  padding: 5%;
+  color: #424B52;
+}
+
+.card p {
+  font-size: .9em;
+}
+
+.url {
+  margin: 25px 0;
+  background-color: #c18d419c;
+  padding: 10px;
+}
+
+.year-count {
+  margin-top: 20px;
+}
+
+.year-count h4 {
+  font-size: 1.1em;
+}
+
+.year {
+  font-size: 2em;
+  color:#A2424E;
+}
+
+
