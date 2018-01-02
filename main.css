@@ -5,11 +5,72 @@
 
 .top {
   background-color:#A2424E;
+  position: relative;
+  width: 100%;
+}
+
+.admin {
+  position: absolute;
+  right: 18px;
+}
+
+.admin p {
+  color: #C18D41;
+  display: inline;
+}
+
+.profile-icon {
+  width: 15px;
+  position: relative;
+  top: 9px;
+  margin: 8px 7px;
+}
+
+.down-arrow {
+  width: 15px;
+  position: relative;
+  top: 9px;
+  margin: 8px 7px;
+}
+
+.top-nav {
+  position: relative;
+  top: 110px;
+  margin-bottom: 10px;
+  left: -30px;
+}
+
+li {
+  display: inline;
+  color: #C18D41;
+  font-size: 1.1em;
+  margin: 0 5px;
+}
+
+.nav-icon {
+  width: 15px;
+  margin: 0 5px;
+}
+
+.logo {
+  position: relative;
+  right: -1260px;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.logo-container {
+  position: relative;
 }
 
 main {
+  color: #CCCDCE;
   background-color: #777C80;
   padding-left: 1%;
+}
+
+main h1 {
+  padding: 25px 0;
 }
 
 .card-container {
@@ -18,12 +79,19 @@ main {
 }
 
 .card {
-  width: 300px;
+  width: 325px;
   background-color: #CCCDCE;
   border: 2px solid #C18D41;
   height: 500px;
   position: relative;
   margin: 10px;
+}
+
+.hat-icon {
+  width: 50px;
+  position: absolute;
+  left: 14px;
+  top: 10px;
 }
 
 .harry {
@@ -37,6 +105,7 @@ main {
   position: absolute;
   font-size: 1.1em;
   right: 16px;
+  top: 5px;
 }
 
 .number {
@@ -112,6 +181,13 @@ main {
 .neville {
   height: 40%;
   background-image: url(images/neville-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+.seamus {
+  height: 40%;
+  background-image: url(images/seamus-cat.jpg);
   background-size: cover;
   color: #A2424E;
 }
