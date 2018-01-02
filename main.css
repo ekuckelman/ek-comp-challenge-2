@@ -74,4 +74,49 @@ main {
   color:#A2424E;
 }
 
+.hermione {
+  height: 40%;
+  background-image: url(images/hermione-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+.ron {
+  height: 40%;
+  background-image: url(images/ron-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+.ginny {
+  height: 40%;
+  background-image: url(images/ginny-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+.fred {
+  height: 40%;
+  background-image: url(images/fred-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+.george {
+  height: 40%;
+  background-image: url(images/fred-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+.neville {
+  height: 40%;
+  background-image: url(images/neville-cat.jpg);
+  background-size: cover;
+  color: #A2424E;
+}
+
+
+
+
 
